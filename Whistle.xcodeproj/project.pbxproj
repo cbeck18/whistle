@@ -12,9 +12,11 @@
 		507D7E871C00F70E00C81084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507D7E851C00F70E00C81084 /* Main.storyboard */; };
 		507D7E891C00F70E00C81084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 507D7E881C00F70E00C81084 /* Assets.xcassets */; };
 		507D7E8C1C00F70E00C81084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507D7E8A1C00F70E00C81084 /* LaunchScreen.storyboard */; };
+		FE984C664CE240A17D461FBD /* Pods_Whistle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160ABA81A9AC937CC7FA86AB /* Pods_Whistle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		160ABA81A9AC937CC7FA86AB /* Pods_Whistle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Whistle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		507D7E7E1C00F70E00C81084 /* Whistle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whistle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		507D7E811C00F70E00C81084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		507D7E831C00F70E00C81084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		507D7E881C00F70E00C81084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		507D7E8B1C00F70E00C81084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		507D7E8D1C00F70E00C81084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C89DA5975C21F40A1D8784C9 /* Pods-Whistle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whistle.release.xcconfig"; path = "Pods/Target Support Files/Pods-Whistle/Pods-Whistle.release.xcconfig"; sourceTree = "<group>"; };
+		F0C7A99AD2243DD1CB254632 /* Pods-Whistle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whistle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Whistle/Pods-Whistle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE984C664CE240A17D461FBD /* Pods_Whistle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				507D7E801C00F70E00C81084 /* Whistle */,
 				507D7E7F1C00F70E00C81084 /* Products */,
+				8D975FC19527BB7AFEAC7F83 /* Pods */,
+				78CF434C8C9D307226FF8523 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = Whistle;
 			sourceTree = "<group>";
 		};
+		78CF434C8C9D307226FF8523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				160ABA81A9AC937CC7FA86AB /* Pods_Whistle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D975FC19527BB7AFEAC7F83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0C7A99AD2243DD1CB254632 /* Pods-Whistle.debug.xcconfig */,
+				C89DA5975C21F40A1D8784C9 /* Pods-Whistle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 507D7E901C00F70E00C81084 /* Build configuration list for PBXNativeTarget "Whistle" */;
 			buildPhases = (
+				1E1C413B96566549CBD4EC8B /* Check Pods Manifest.lock */,
 				507D7E7A1C00F70E00C81084 /* Sources */,
 				507D7E7B1C00F70E00C81084 /* Frameworks */,
 				507D7E7C1C00F70E00C81084 /* Resources */,
+				684EF939ED408B82053F5120 /* Embed Pods Frameworks */,
+				6B635F1CC3A30590489699AB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E1C413B96566549CBD4EC8B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		684EF939ED408B82053F5120 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Whistle/Pods-Whistle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B635F1CC3A30590489699AB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Whistle/Pods-Whistle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		507D7E7A1C00F70E00C81084 /* Sources */ = {
@@ -245,6 +320,7 @@
 		};
 		507D7E911C00F70E00C81084 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C7A99AD2243DD1CB254632 /* Pods-Whistle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Whistle/Info.plist;
@@ -256,6 +332,7 @@
 		};
 		507D7E921C00F70E00C81084 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89DA5975C21F40A1D8784C9 /* Pods-Whistle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Whistle/Info.plist;
@@ -284,6 +361,7 @@
 				507D7E921C00F70E00C81084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
