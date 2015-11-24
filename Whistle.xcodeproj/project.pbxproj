@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CE203301C04ABD3001B2A0C /* DigitsKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2CE2032F1C04ABD3001B2A0C /* DigitsKitResources.bundle */; };
 		507D7E821C00F70E00C81084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507D7E811C00F70E00C81084 /* AppDelegate.swift */; };
 		507D7E841C00F70E00C81084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507D7E831C00F70E00C81084 /* ViewController.swift */; };
 		507D7E871C00F70E00C81084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507D7E851C00F70E00C81084 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CE2032F1C04ABD3001B2A0C /* DigitsKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DigitsKitResources.bundle; path = Pods/Digits/DigitsKit.framework/Versions/A/Resources/DigitsKitResources.bundle; sourceTree = "<group>"; };
 		507D7E7E1C00F70E00C81084 /* Whistle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whistle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		507D7E811C00F70E00C81084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		507D7E831C00F70E00C81084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			children = (
 				507D7E801C00F70E00C81084 /* Whistle */,
 				507D7E7F1C00F70E00C81084 /* Products */,
+				2CE2032F1C04ABD3001B2A0C /* DigitsKitResources.bundle */,
 				78CF434C8C9D307226FF8523 /* Frameworks */,
 				46D9A230E72370A4F562BA3E /* Pods */,
 			);
@@ -146,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE203301C04ABD3001B2A0C /* DigitsKitResources.bundle in Resources */,
 				507D7E8C1C00F70E00C81084 /* LaunchScreen.storyboard in Resources */,
 				507D7E891C00F70E00C81084 /* Assets.xcassets in Resources */,
 				507D7E871C00F70E00C81084 /* Main.storyboard in Resources */,
