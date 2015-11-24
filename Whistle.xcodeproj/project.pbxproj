@@ -12,7 +12,6 @@
 		507D7E871C00F70E00C81084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507D7E851C00F70E00C81084 /* Main.storyboard */; };
 		507D7E891C00F70E00C81084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 507D7E881C00F70E00C81084 /* Assets.xcassets */; };
 		507D7E8C1C00F70E00C81084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507D7E8A1C00F70E00C81084 /* LaunchScreen.storyboard */; };
-		84CC93D7BBB7B841D9DC331A /* Pods_Whistle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF0CBE1EC0CEE81C50EB946 /* Pods_Whistle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +23,6 @@
 		507D7E8B1C00F70E00C81084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		507D7E8D1C00F70E00C81084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDAEBC30A1FF68E498D3624A /* Pods-Whistle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whistle.release.xcconfig"; path = "Pods/Target Support Files/Pods-Whistle/Pods-Whistle.release.xcconfig"; sourceTree = "<group>"; };
-		DEF0CBE1EC0CEE81C50EB946 /* Pods_Whistle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Whistle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79127163DC44550F62F42AC /* Pods-Whistle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Whistle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Whistle/Pods-Whistle.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,7 +31,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84CC93D7BBB7B841D9DC331A /* Pods_Whistle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +80,6 @@
 		78CF434C8C9D307226FF8523 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DEF0CBE1EC0CEE81C50EB946 /* Pods_Whistle.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
