@@ -5,5 +5,7 @@ use_frameworks!
 
 target 'Whistle' do
 pod 'Fabric'
+pod 'Digits'
+pod 'TwitterCore'
 end
 
