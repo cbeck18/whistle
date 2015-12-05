@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C4A97931C1339AB00287199 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A97921C1339AB00287199 /* ContactViewController.swift */; };
+		2C4A97951C1339D900287199 /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A97941C1339D900287199 /* HomepageViewController.swift */; };
+		2C4A97971C1339EA00287199 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A97961C1339EA00287199 /* LoginViewController.swift */; };
 		2CE203301C04ABD3001B2A0C /* DigitsKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2CE2032F1C04ABD3001B2A0C /* DigitsKitResources.bundle */; };
 		507D7E821C00F70E00C81084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507D7E811C00F70E00C81084 /* AppDelegate.swift */; };
 		507D7E841C00F70E00C81084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507D7E831C00F70E00C81084 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C4A97921C1339AB00287199 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		2C4A97941C1339D900287199 /* HomepageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
+		2C4A97961C1339EA00287199 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2CE2032F1C04ABD3001B2A0C /* DigitsKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DigitsKitResources.bundle; path = Pods/Digits/DigitsKit.framework/Versions/A/Resources/DigitsKitResources.bundle; sourceTree = "<group>"; };
 		507D7E7E1C00F70E00C81084 /* Whistle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whistle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		507D7E811C00F70E00C81084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C4A97891C13377000287199 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C4A97921C1339AB00287199 /* ContactViewController.swift */,
+				2C4A97941C1339D900287199 /* HomepageViewController.swift */,
+				2C4A97961C1339EA00287199 /* LoginViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2C4A978A1C13378100287199 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2C4A978B1C13378B00287199 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		46D9A230E72370A4F562BA3E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +100,9 @@
 		507D7E801C00F70E00C81084 /* Whistle */ = {
 			isa = PBXGroup;
 			children = (
+				2C4A978B1C13378B00287199 /* Models */,
+				2C4A978A1C13378100287199 /* Views */,
+				2C4A97891C13377000287199 /* View Controllers */,
 				507D7E811C00F70E00C81084 /* AppDelegate.swift */,
 				507D7E831C00F70E00C81084 /* ViewController.swift */,
 				507D7E851C00F70E00C81084 /* Main.storyboard */,
@@ -176,7 +209,7 @@
 		};
 		2CD7FCD01C03FFE80030CEA1 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -224,8 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4A97951C1339D900287199 /* HomepageViewController.swift in Sources */,
 				507D7E841C00F70E00C81084 /* ViewController.swift in Sources */,
 				507D7E821C00F70E00C81084 /* AppDelegate.swift in Sources */,
+				2C4A97971C1339EA00287199 /* LoginViewController.swift in Sources */,
+				2C4A97931C1339AB00287199 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
