@@ -1,0 +1,35 @@
+PODS:
+  - Bolts (1.5.0):
+    - Bolts/AppLinks (= 1.5.0)
+    - Bolts/Tasks (= 1.5.0)
+  - Bolts/AppLinks (1.5.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.5.0)
+  - Digits (1.14.0):
+    - TwitterCore (= 1.14.0)
+  - Fabric (1.6.1)
+  - Parse (1.10.0):
+    - Bolts/Tasks (~> 1.5)
+  - ParseUI (1.1.7):
+    - Bolts/Tasks (~> 1.3)
+    - Parse (~> 1.9)
+  - TwitterCore (1.14.0):
+    - Fabric
+
+DEPENDENCIES:
+  - Bolts
+  - Digits
+  - Fabric
+  - Parse
+  - ParseUI
+  - TwitterCore
+
+SPEC CHECKSUMS:
+  Bolts: 722ab9a4f8b50fc4ed1b9998a5a7a2b3f16d80b4
+  Digits: 0b0cae2cf8291296a5957f2ab9dc5f16c48aa9a6
+  Fabric: bf0ceb04e7c924090efc5f8c55e4fbcca189e0a0
+  Parse: 90b2544822200f84b18bfacc4e8b0a3a6c3584a2
+  ParseUI: c2bcdfbb00330e464b5b773266ae221697a3bb7b
+  TwitterCore: 1d9034c745fe66e7ca682afad8c35193019af069
+
+COCOAPODS: 0.39.0

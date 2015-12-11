@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "Whistle": {
+      "applicationId": "D1FYKaFVE1CnBabodBig3xJgL65aA3HSUYNX8fTy"
+    },
+    "_default": {
+      "link": "Whistle"
+    }
+  }
+}
