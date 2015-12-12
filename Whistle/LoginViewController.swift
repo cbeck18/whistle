@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import DigitsKit
 
 class LoginViewController: UIViewController {
 

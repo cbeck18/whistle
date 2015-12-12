@@ -4,8 +4,13 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'Whistle' do
-pod 'Fabric'
-pod 'Digits'
-pod 'TwitterCore'
-end
 
+pod 'Fabric'
+pod 'TwitterCore'
+pod 'SwiftAddressBook'
+
+pod 'Bolts'
+pod 'Parse'
+pod 'ParseUI'
+
+end
